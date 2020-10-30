@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "lalitdeol": {
+      "hosting": {
+        "travelgram": [
+          "lalitdeol"
+        ]
+      }
+    }
+  }
+}
