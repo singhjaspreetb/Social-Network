@@ -2,7 +2,7 @@
   "targets": {
     "lalitdeol": {
       "hosting": {
-        "travelgram": [
+        "socialconnect": [
           "lalitdeol"
         ]
       }
