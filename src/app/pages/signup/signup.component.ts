@@ -15,6 +15,7 @@ import { AngularFireDatabase } from "@angular/fire/database";
 // browser image resizer
 import { readAndCompressImage } from 'browser-image-resizer';
 import { imageConfig } from './../../../utils/config';
+import { identifierName } from '@angular/compiler';
 
 @Component({
   selector: 'app-signup',
@@ -23,7 +24,7 @@ import { imageConfig } from './../../../utils/config';
 })
 export class SignupComponent implements OnInit {
   // tslint:disable-next-line: ban-types
-  picture: String = 'https://learnyst.s3.amazonaws.com/assets/schools/2410/resources/images/logo_lco_i3oab.png';
+  picture: string = "http://www.pngall.com/wp-content/uploads/2/Upload-Transparent.png";
 
    uploadPercent: number = null;
   constructor(
